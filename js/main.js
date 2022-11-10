@@ -39,7 +39,6 @@ let valoreCognome=document.getElementById("valoreCognome");
 let valoreColore=document.getElementById("valoreColore");
 let valoreNumero=document.getElementById("valoreNumero");
 let arrayTest;
-console.log(tagsInput.length);
 for(i=0;i<tagsInput.length;i++){
 tagsInput[i].addEventListener("input",functionTxt);
 }
